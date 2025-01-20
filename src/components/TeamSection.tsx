@@ -40,7 +40,7 @@ const teamMembers: TeamMember[] = [
       'Developed the Documentation frontend'
     ],
     skills: ['AWS Lambda', 'MySQL', 'Textract', 'Next.js'],
-    avatar: '/public/Team/Asif_pfp.jpg'
+    avatar: '/Team/Asif_pfp.jpg'
   },
   {
     name: 'SAHANA S',
@@ -177,7 +177,7 @@ export default function TeamSection() {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ 
-          backgroundImage: "url('/public/bg.png')",
+          backgroundImage: "url('/bg.png')",
           filter: "brightness(0.3)"
         }}
       />

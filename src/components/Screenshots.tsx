@@ -27,42 +27,42 @@ const services: Service[] = [
     color: '#DD344C',
     images: [
       {
-        url: '/public/CHEQUE PROCESSING/AMPLIFY/Screenshot 2025-01-01 213405.png',
+        url: '/CHEQUE PROCESSING/AMPLIFY/Screenshot 2025-01-01 213405.png',
         title: 'Initial Deployment & Hosting',
         description: 'Frontend is deployed and hosted using AWS Amplify, a managed hosting service.'
       },
       {
-        url: '/public/CHEQUE PROCESSING/EXECUTION/WEBSITE.png',
+        url: '/CHEQUE PROCESSING/EXECUTION/WEBSITE.png',
         title: 'Website Interface',
         description: 'Users interact with the cheque processing app hosted on AWS Amplify.'
       },
       {
-        url: '/public/CHEQUE PROCESSING/EXECUTION/SCAN OPTION.png',
+        url: '/CHEQUE PROCESSING/EXECUTION/SCAN OPTION.png',
         title: 'Scan Option Interface',
         description: 'Users can select or scan cheques for uploading through this interface.'
       },
       {
-        url: '/public/CHEQUE PROCESSING/EXECUTION/UPLOAD PHOTO.png',
+        url: '/CHEQUE PROCESSING/EXECUTION/UPLOAD PHOTO.png',
         title: 'Photo Upload',
         description: 'Users upload cheque images, which are processed by AWS Lambda using Textract.'
       },
       {
-        url: '/public/CHEQUE PROCESSING/EXECUTION/AFTER UPLOADING VIEW THE EXTRACTED TEXT AFTER LOGIN.png',
+        url: '/CHEQUE PROCESSING/EXECUTION/AFTER UPLOADING VIEW THE EXTRACTED TEXT AFTER LOGIN.png',
         title: 'View Extracted Text',
         description: 'Users can view the extracted data after login, stored in AWS RDS.'
       },
       {
-        url: '/public/CHEQUE PROCESSING/EXECUTION/IF INVALID CREDENTIALS ERROR.png',
+        url: '/CHEQUE PROCESSING/EXECUTION/IF INVALID CREDENTIALS ERROR.png',
         title: 'Invalid Login Credentials',
         description: 'Users attempting to log in with incorrect credentials will receive an error message and SNS notification.'
       },
       {
-        url: '/public/CHEQUE PROCESSING/EXECUTION/VALIDN CREDENTIALS VIEW DASHBOARD.png',
+        url: '/CHEQUE PROCESSING/EXECUTION/VALIDN CREDENTIALS VIEW DASHBOARD.png',
         title: 'Access Dashboard',
         description: 'Users with valid credentials gain access to the dashboard displaying extracted cheque data.'
       },
       {
-        url: '/public/CHEQUE PROCESSING/EXECUTION/VALID CREDENTIALS VIEW DASHBOARD 1 .png',
+        url: '/CHEQUE PROCESSING/EXECUTION/VALID CREDENTIALS VIEW DASHBOARD 1 .png',
         title: 'Dashboard Overview',
         description: 'The dashboard shows extracted cheque data in a clear and organized format for easy viewing.'
       },
@@ -75,32 +75,32 @@ const services: Service[] = [
     color: '#FF9910',
     images: [
       {
-        url: '/public/CHEQUE PROCESSING/COGNITO/app clien.png',
+        url: '/CHEQUE PROCESSING/COGNITO/app clien.png',
         title: 'Cognito Client Application',
         description: 'Initial setup of the Cognito client application for user authentication and management.'
       },
       {
-        url: '/public/CHEQUE PROCESSING/COGNITO/user pool.png',
+        url: '/CHEQUE PROCESSING/COGNITO/user pool.png',
         title: 'User Pool Setup',
         description: 'The Cognito user pool configuration for managing user accounts and authentication.'
       },
       {
-        url: '/public/CHEQUE PROCESSING/COGNITO/user.png',
+        url: '/CHEQUE PROCESSING/COGNITO/user.png',
         title: 'User Profile',
         description: 'User profile details are stored and managed within the Cognito user pool for secure access.'
       },
       {
-        url: '/public/CHEQUE PROCESSING/COGNITO/details.png',
+        url: '/CHEQUE PROCESSING/COGNITO/details.png',
         title: 'User Details Configuration',
         description: 'Detailed configuration of user attributes and permissions within Cognito for authentication.'
       },
       {
-        url: '/public/CHEQUE PROCESSING/EXECUTION/AFTER UPLOADING VIEW THE EXTRACTED TEXT AFTER LOGIN.png',
+        url: '/CHEQUE PROCESSING/EXECUTION/AFTER UPLOADING VIEW THE EXTRACTED TEXT AFTER LOGIN.png',
         title: 'Extracted Data Post-Login',
         description: 'Once authenticated, users can view the extracted data from uploaded cheques.'
       },
       {
-        url: '/public/CHEQUE PROCESSING/EXECUTION/IF INVALID CREDENTIALS ERROR.png',
+        url: '/CHEQUE PROCESSING/EXECUTION/IF INVALID CREDENTIALS ERROR.png',
         title: 'Invalid Login Credentials',
         description: 'Users with invalid credentials are notified of the error through Cognito\'s authentication system.'
       },
@@ -113,32 +113,32 @@ const services: Service[] = [
     color: '#527FFF',
     images: [
       {
-        url: '/public/CHEQUE PROCESSING/RDS/database.png',
+        url: '/CHEQUE PROCESSING/RDS/database.png',
         title: 'Database Creation and Setup',
         description: 'Initial setup of the RDS database to store and manage extracted cheque data and annotations.'
       },
       {
-        url: '/public/CHEQUE PROCESSING/RDS/details.png',
+        url: '/CHEQUE PROCESSING/RDS/details.png',
         title: 'Details of the Database Created in RDS',
         description: 'Overview of the database structure and Connecting the endpoints with MySQL Workbench.'
       },
       {
-        url: '/public/CHEQUE PROCESSING/RDS/security group and instances.png',
+        url: '/CHEQUE PROCESSING/RDS/security group and instances.png',
         title: 'Security Groups and Instances',
         description: 'Configuration of RDS security groups and instances to ensure secure access and data storage.'
       },
       {
-        url: '/public/CHEQUE PROCESSING/EXECUTION/EXTRACTED TEXT UPDATED IN MYSQL DATABASE 1.png',
+        url: '/CHEQUE PROCESSING/EXECUTION/EXTRACTED TEXT UPDATED IN MYSQL DATABASE 1.png',
         title: 'Extracted Text Stored in Structured Format in MySQL',
         description: 'Processed cheque text is stored in MySQL for secure and efficient retrieval.'
       },
       {
-        url: '/public/CHEQUE PROCESSING/EXECUTION/EXTRACTED TEXT UPDATED IN MYSQL DATABASE.png',
+        url: '/CHEQUE PROCESSING/EXECUTION/EXTRACTED TEXT UPDATED IN MYSQL DATABASE.png',
         title: 'SQL Schema for Managing Cheque Data in MySQL Workbench',
         description: 'Cheque data is managed via MySQL Workbench linked to AWS RDS endpoints for streamlined operations.'
       },
       {
-        url: '/public/CHEQUE PROCESSING/EXECUTION/VALID CREDENTIALS VIEW DASHBOARD 1 .png',
+        url: '/CHEQUE PROCESSING/EXECUTION/VALID CREDENTIALS VIEW DASHBOARD 1 .png',
         title: 'Dashboard Displays Extracted Image Data in Structured Format',
         description: 'The dashboard organizes cheque data into a clear, structured format for easy user access and viewing.'
       },
@@ -151,22 +151,22 @@ const services: Service[] = [
     color: '#569A31',
     images: [
       {
-        url: '/public/CHEQUE PROCESSING/S3/Screenshot 2025-01-01 213616.png',
+        url: '/CHEQUE PROCESSING/S3/Screenshot 2025-01-01 213616.png',
         title: 'S3 Bucket Setup',
         description: 'Initial setup of the S3 bucket for securely storing uploaded cheque images.'
       },
       {
-        url: '/public/CHEQUE PROCESSING/S3/Screenshot 2025-01-01 213653.png',
+        url: '/CHEQUE PROCESSING/S3/Screenshot 2025-01-01 213653.png',
         title: 'S3 Bucket Policy',
         description: 'Configuring the S3 storage settings to ensure efficient handling of cheque image uploads.'
       },
       {
-        url: '/public/CHEQUE PROCESSING/EXECUTION/CHEQUE UPLOADED IN S3.png',
+        url: '/CHEQUE PROCESSING/EXECUTION/CHEQUE UPLOADED IN S3.png',
         title: 'Cheque Uploaded to S3',
         description: 'A cheque image successfully uploaded and stored in the S3 bucket.'
       },
       {
-        url: '/public/CHEQUE PROCESSING/EXECUTION/UPLOADED CHEQUE INFO.png',
+        url: '/CHEQUE PROCESSING/EXECUTION/UPLOADED CHEQUE INFO.png',
         title: 'Uploaded Cheque Information',
         description: 'Details of the uploaded cheque image stored in S3, accessible for further processing.'
       },
@@ -179,12 +179,12 @@ const services: Service[] = [
     color: '#FF9900',
     images: [
       {
-        url: '/public/CHEQUE PROCESSING/LAMBDA/Screenshot 2025-01-01 213525.png',
+        url: '/CHEQUE PROCESSING/LAMBDA/Screenshot 2025-01-01 213525.png',
         title: 'Image Upload Lambda Function',
         description: 'Lambda function responsible for handling the image upload process and executing the associated code for storing cheque images in S3.'
       },
       {
-        url: '/public/CHEQUE PROCESSING/LAMBDA/Screenshot 2025-01-01 213551.png',
+        url: '/CHEQUE PROCESSING/LAMBDA/Screenshot 2025-01-01 213551.png',
         title: 'Fetch Data from Database',
         description: 'Lambda function retrieves and processes extracted cheque data from the RDS database to be used in further steps of cheque verification.'
       },
@@ -197,22 +197,22 @@ const services: Service[] = [
     color: '#00A4EF',
     images: [
       {
-        url: '/public/CHEQUE PROCESSING/TEXTRACT/integrated in lambda code.png',
+        url: '/CHEQUE PROCESSING/TEXTRACT/integrated in lambda code.png',
         title: 'Textract Integration with Lambda',
         description: 'AWS Textract is integrated with the Lambda function to automate the extraction of text data from cheque images.'
       },
       {
-        url: '/public/CHEQUE PROCESSING/TEXTRACT/Screenshot 2025-01-01 215257.png',
+        url: '/CHEQUE PROCESSING/TEXTRACT/Screenshot 2025-01-01 215257.png',
         title: 'Extracted Text Data',
         description: 'Sample extracted text data from a cheque image processed by AWS Textract.'
       },
       {
-        url: '/public/Cheques_Datasets/ch-16.jpg',
+        url: '/Cheques_Datasets/ch-16.jpg',
         title: 'Cheque Image for Text Extraction',
         description: 'Sample cheque image used for text extraction via AWS Textract to process cheque data.'
       },
       {
-        url: '/public/CHEQUE PROCESSING/EXECUTION/EXTRACTED TEXT UPDATED IN MYSQL DATABASE 1.png',
+        url: '/CHEQUE PROCESSING/EXECUTION/EXTRACTED TEXT UPDATED IN MYSQL DATABASE 1.png',
         title: 'Extracted Text in Database',
         description: 'The extracted text from cheque images is updated in the MySQL database for further processing and validation.'
       },
@@ -225,27 +225,27 @@ const services: Service[] = [
     color: '#3F8624',
     images: [
       {
-        url: '/public/CHEQUE PROCESSING/CLOUDWATCH/Screenshot 2025-01-01 214453.png',
+        url: '/CHEQUE PROCESSING/CLOUDWATCH/Screenshot 2025-01-01 214453.png',
         title: 'CloudWatch Setup for Monitoring',
         description: 'Initial setup of AWS CloudWatch for monitoring system performance and logging any errors during cheque processing.'
       },
       {
-        url: '/public/CHEQUE PROCESSING/CLOUDWATCH/upload error alarm.png',
+        url: '/CHEQUE PROCESSING/CLOUDWATCH/upload error alarm.png',
         title: 'Alarm for Upload Error',
         description: 'CloudWatch alarm set up to notify when there is an error in uploading cheque images to the system.'
       },
       {
-        url: '/public/CHEQUE PROCESSING/CLOUDWATCH/alarm for photo upload.png',
+        url: '/CHEQUE PROCESSING/CLOUDWATCH/alarm for photo upload.png',
         title: 'Alarm for Photo Upload',
         description: 'CloudWatch triggers an alarm in case of issues during cheque image uploads, ensuring quick detection and resolution.'
       },
       {
-        url: '/public/CHEQUE PROCESSING/CLOUDWATCH/log group for image upload function.png',
+        url: '/CHEQUE PROCESSING/CLOUDWATCH/log group for image upload function.png',
         title: 'Log Group for Image Upload Function',
         description: 'CloudWatch Log Group tracks the events and errors during the cheque image upload process for further analysis.'
       },
       {
-        url: '/public/CHEQUE PROCESSING//CLOUDWATCH/log group for fetchDB data.png',
+        url: '/CHEQUE PROCESSING//CLOUDWATCH/log group for fetchDB data.png',
         title: 'Log Group for Fetch DB Function',
         description: 'Logs from the database fetch function are stored in CloudWatch for troubleshooting and performance analysis.'
       },
@@ -258,27 +258,27 @@ const services: Service[] = [
     color: '#FF4F8B',
     images: [
       {
-        url: '/public/CHEQUE PROCESSING/SNS/cheque processing sns.png',
+        url: '/CHEQUE PROCESSING/SNS/cheque processing sns.png',
         title: 'SNS Integration for Cheque Processing',
         description: 'Integrating AWS SNS to send notifications about the cheque processing status to users.'
       },
       {
-        url: '/public/CHEQUE PROCESSING/SNS/Screenshot 2025-01-01 214713.png',
+        url: '/CHEQUE PROCESSING/SNS/Screenshot 2025-01-01 214713.png',
         title: 'SNS Notification Setup',
         description: 'Configuring AWS SNS for user notifications regarding the status of cheque processing.'
       },
       {
-        url: '/public/CHEQUE PROCESSING/SNS/upload notification.png',
+        url: '/CHEQUE PROCESSING/SNS/upload notification.png',
         title: 'Cheque Upload Notification',
         description: 'An SNS notification sent to the user after uploading a cheque image, informing them of the processing status.'
       },
       {
-        url: '/public/CHEQUE PROCESSING/EXECUTION/Screenshot 2025-01-19 194441.png',
+        url: '/CHEQUE PROCESSING/EXECUTION/Screenshot 2025-01-19 194441.png',
         title: 'Notification via Email',
         description: 'Users receive notifications about cheque processing status via email through AWS SNS.'
       },
       {
-        url: '/public/CHEQUE PROCESSING/EXECUTION/Screenshot 2025-01-19 194529.png',
+        url: '/CHEQUE PROCESSING/EXECUTION/Screenshot 2025-01-19 194529.png',
         title: 'Upload Error Alarm Triggered',
         description: 'An SNS alarm triggered in case of an issue during cheque image upload, notifying the user of the failure.'
       },
@@ -291,42 +291,42 @@ const services: Service[] = [
     color: '#E63946',
     images: [
       {
-        url: '/public/CHEQUE PROCESSING/API GATEWAY/Screenshot 2025-01-01 213719.png',
+        url: '/CHEQUE PROCESSING/API GATEWAY/Screenshot 2025-01-01 213719.png',
         title: 'ImageUploadAPI Details',
         description: 'Configures the API endpoint for handling image upload requests and initiating the cheque processing workflow.'
       },
       {
-        url: '/public/CHEQUE PROCESSING/API GATEWAY/Screenshot 2025-01-01 213742.png',
+        url: '/CHEQUE PROCESSING/API GATEWAY/Screenshot 2025-01-01 213742.png',
         title: 'Routes',
         description: 'Defines the paths for API requests, directing them to appropriate back-end services for cheque image processing.'
       },
       {
-        url: '/public/CHEQUE PROCESSING/API GATEWAY/Screenshot 2025-01-01 213805.png',
+        url: '/CHEQUE PROCESSING/API GATEWAY/Screenshot 2025-01-01 213805.png',
         title: 'Integration with ImageUpload Lambda Function',
         description: 'Links the ImageUpload Lambda function to the API Gateway, automating image processing tasks after uploads.'
       },
       {
-        url: '/public/CHEQUE PROCESSING/API GATEWAY/Screenshot 2025-01-01 213828.png',
+        url: '/CHEQUE PROCESSING/API GATEWAY/Screenshot 2025-01-01 213828.png',
         title: 'Deploying API Stage',
         description: 'Deploys the API stage, making it live and accessible for front-end requests to interact with the back-end.'
       },
       {
-        url: '/public/CHEQUE PROCESSING/API GATEWAY/DB data api data.png',
+        url: '/CHEQUE PROCESSING/API GATEWAY/DB data api data.png',
         title: 'DBData API Details',
         description: 'Configures an API endpoint to retrieve essential database information for use in cheque processing operations.'
       },
       {
-        url: '/public/CHEQUE PROCESSING/API GATEWAY/routes.png',
+        url: '/CHEQUE PROCESSING/API GATEWAY/routes.png',
         title: 'Routes',
         description: 'Sets up additional routes for specific operations, ensuring smooth communication between the front-end and back-end.'
       },
       {
-        url: '/public/CHEQUE PROCESSING/API GATEWAY/integration with fetchDBdata lambda function.png',
+        url: '/CHEQUE PROCESSING/API GATEWAY/integration with fetchDBdata lambda function.png',
         title: 'Integration with FetchDBData Lambda Function',
         description: 'Integrates the FetchDBData Lambda function to retrieve data from the back-end, enabling dynamic cheque processing.'
       },
       {
-        url: '/public/CHEQUE PROCESSING/API GATEWAY/cross origin resurce sharing details.png',
+        url: '/CHEQUE PROCESSING/API GATEWAY/cross origin resurce sharing details.png',
         title: 'Cross-Origin Resource Sharing Details',
         description: 'Configures CORS settings to ensure secure cross-domain data sharing between the front-end and back-end.'
       },
@@ -339,37 +339,37 @@ const services: Service[] = [
     color: '#FF4F8B',
     images: [
       {
-        url: '/public/CHEQUE PROCESSING/IAM/basic execution role policy code.png',
+        url: '/CHEQUE PROCESSING/IAM/basic execution role policy code.png',
         title: 'Basic Execution Role Policy Code',
         description: 'Defines the IAM role and policies that grant Lambda functions permissions to interact with AWS services securely.'
       },
       {
-        url: '/public/CHEQUE PROCESSING/IAM/fetchDB data role.png',
+        url: '/CHEQUE PROCESSING/IAM/fetchDB data role.png',
         title: 'FetchDB Data Role',
         description: 'IAM role for securely accessing the database and fetching the necessary data for cheque processing.'
       },
       {
-        url: '/public/CHEQUE PROCESSING/IAM/policies 1.png',
+        url: '/CHEQUE PROCESSING/IAM/policies 1.png',
         title: 'Defining Policies for Permissions',
         description: 'Defines IAM policies to manage access control for different services and ensure secure operations.'
       },
       {
-        url: '/public/CHEQUE PROCESSING/IAM/policies.png',
+        url: '/CHEQUE PROCESSING/IAM/policies.png',
         title: 'Additional IAM Policies',
         description: 'Continued setup of IAM policies to fine-tune access rights and restrictions for Lambda functions.'
       },
       {
-        url: '/public/CHEQUE PROCESSING/IAM/role created for image upload .png',
+        url: '/CHEQUE PROCESSING/IAM/role created for image upload .png',
         title: 'Role Created for Image Upload',
         description: 'Defines the IAM role that allows Lambda functions to interact with services for processing cheque images.'
       },
       {
-        url: '/public/CHEQUE PROCESSING/IAM/role created to give cognito access.png',
+        url: '/CHEQUE PROCESSING/IAM/role created to give cognito access.png',
         title: 'Role Created for Cognito Access',
         description: 'IAM role for enabling secure access to AWS Cognito for authentication and user management during cheque processing.'
       },
       {
-        url: '/public/CHEQUE PROCESSING/IAM/S3 textract policy code.png',
+        url: '/CHEQUE PROCESSING/IAM/S3 textract policy code.png',
         title: 'S3 Textract Policy Code',
         description: 'IAM policy allowing Lambda to access S3 buckets and interact with Amazon Textract for cheque data extraction.'
       },
