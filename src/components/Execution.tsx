@@ -6,12 +6,12 @@ import { ChevronRight, ChevronLeft } from 'lucide-react';
 
 const videoSteps = [
   {
-    src: "../../public/ezgif-3-5f3056411f.mp4", // First video
+    src: "/ezgif-3-5f3056411f.mp4", // First video
     thumbnail: "/thumbnails/demo1.jpg", // First video thumbnail
     description: "Demo 1: Overview of the system execution",
   },
   {
-    src: "../../public/ezgif-3-487e334ddb.mp4", // Second video
+    src: "/ezgif-3-487e334ddb.mp4", // Second video
     thumbnail: "/thumbnails/demo2.jpg", // Second video thumbnail
     description: "Demo 2: Detailed cheque processing flow",
   },
@@ -22,85 +22,85 @@ const executionSteps = [
     id: 1,
     title: 'Website Interface',
     description: 'Users interact with the cheque processing app hosted on AWS Amplify.',
-    image: '../../public/CHEQUE PROCESSING/EXECUTION/WEBSITE.png',
+    image: '/CHEQUE PROCESSING/EXECUTION/WEBSITE.png',
   },
   {
     id: 2,
     title: 'Scan Option',
     description: 'Users can initiate cheque scanning or select an image for upload.',
-    image: '../../public/CHEQUE PROCESSING/EXECUTION/SCAN OPTION.png',
+    image: '/CHEQUE PROCESSING/EXECUTION/SCAN OPTION.png',
   },
   {
     id: 3,
     title: 'Upload Photo',
     description: 'Uploaded cheque images are analyzed by Lambda using Textract for extracting key details.',
-    image: '../../public/CHEQUE PROCESSING/EXECUTION/UPLOAD PHOTO.png',
+    image: '/CHEQUE PROCESSING/EXECUTION/UPLOAD PHOTO.png',
   },
   {
     id: 4,
     title: 'Login to View Extracted Text After Uploading',
     description: 'Extracted data is accessible post-login and stored securely in AWS RDS.',
-    image: '../../public/CHEQUE PROCESSING/EXECUTION/AFTER UPLOADING VIEW THE EXTRACTED TEXT AFTER LOGIN.png',
+    image: '/CHEQUE PROCESSING/EXECUTION/AFTER UPLOADING VIEW THE EXTRACTED TEXT AFTER LOGIN.png',
   },
   {
     id: 5,
     title: 'Invalid Credentials Will Trigger an Error',
     description: 'Login attempts with incorrect credentials trigger an error and SNS alerts.',
-    image: '../../public/CHEQUE PROCESSING/EXECUTION/IF INVALID CREDENTIALS ERROR.png',
+    image: '/CHEQUE PROCESSING/EXECUTION/IF INVALID CREDENTIALS ERROR.png',
   },
   {
     id: 6,
     title: 'Valid Credentials Allow Access to Dashboard',
     description: 'Successful login grants access to the dashboard for cheque details.',
-    image: '../../public/CHEQUE PROCESSING/EXECUTION/VALIDN CREDENTIALS VIEW DASHBOARD.png',
+    image: '/CHEQUE PROCESSING/EXECUTION/VALIDN CREDENTIALS VIEW DASHBOARD.png',
   },
   {
     id: 7,
     title: 'Dashboard Displays Extracted Image Data in Structured Format',
     description: 'The dashboard organizes cheque data into a clear, structured format.',
-    image: '../../public/CHEQUE PROCESSING/EXECUTION/VALID CREDENTIALS VIEW DASHBOARD 1 .png',
+    image: '/CHEQUE PROCESSING/EXECUTION/VALID CREDENTIALS VIEW DASHBOARD 1 .png',
   },
   {
     id: 8,
     title: 'SQL Schema for Managing Cheque Data in MySQL Workbench',
     description: 'Cheque data is managed via MySQL Workbench linked to AWS RDS endpoints.',
-    image: '../../public/CHEQUE PROCESSING/EXECUTION/EXTRACTED TEXT UPDATED IN MYSQL DATABASE.png',
+    image: '/CHEQUE PROCESSING/EXECUTION/EXTRACTED TEXT UPDATED IN MYSQL DATABASE.png',
   },
   {
     id: 9,
     title: 'Sample Cheque Data',
     description: 'A sample cheque image demonstrates the processing and data extraction workflow.',
-    image: '../../public/Cheques_Datasets/ch-16.jpg',
+    image: '/Cheques_Datasets/ch-16.jpg',
   },
   {
     id: 10,
     title: 'Extracted Text Stored in Structured Format in MySQL',
     description: 'Processed cheque text is stored in MySQL for secure and efficient retrieval.',
-    image: '../../public/CHEQUE PROCESSING/EXECUTION/EXTRACTED TEXT UPDATED IN MYSQL DATABASE 1.png',
+    image: '/CHEQUE PROCESSING/EXECUTION/EXTRACTED TEXT UPDATED IN MYSQL DATABASE 1.png',
   },
   {
     id: 11,
     title: 'Cheque Uploaded in S3',
     description: 'Uploaded cheque images are securely stored in Amazon S3 buckets.',
-    image: '../../public/CHEQUE PROCESSING/EXECUTION/CHEQUE UPLOADED IN S3.png',
+    image: '/CHEQUE PROCESSING/EXECUTION/CHEQUE UPLOADED IN S3.png',
   },
   {
     id: 12,
     title: 'Uploaded Cheque Details',
     description: 'Details of the uploaded cheque are displayed for user verification.',
-    image: '../../public/CHEQUE PROCESSING/EXECUTION/UPLOADED CHEQUE INFO.png',
+    image: '/CHEQUE PROCESSING/EXECUTION/UPLOADED CHEQUE INFO.png',
   },
   {
     id: 13,
     title: 'SNS Notification in Mail',
     description: 'Email notifications for cheque uploads and updates are sent via SNS.',
-    image: '../../public/CHEQUE PROCESSING/EXECUTION/SNS IN MAIL.png',
+    image: '/CHEQUE PROCESSING/EXECUTION/SNS IN MAIL.png',
   },
   {
     id: 14,
     title: 'Alarm Triggered Notification for Upload',
     description: 'An alarm signals successful upload, and users are alerted via SNS notifications.',
-    image: '../../public/CHEQUE PROCESSING/EXECUTION/ALARM TRIGGERED FOR UPLOAD.png',
+    image: '/CHEQUE PROCESSING/EXECUTION/ALARM TRIGGERED FOR UPLOAD.png',
   },
 ];
 

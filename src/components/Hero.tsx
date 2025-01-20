@@ -44,7 +44,7 @@ export default function Hero() {
 
       {/* VITCC Logo in top right */}
       <img
-        src="../../public/vitcc.png"
+        src="/vitcc.png"
         alt="VITCC Logo"
         className="absolute top-4 right-4 w-[170px] h-auto z-20 object-contain"
       />
@@ -80,7 +80,7 @@ export default function Hero() {
           >
             <span className="relative">
               <img
-                src="../../public/AWS SVG ICONS/Amazon_Web_Services-Logo.wine.svg"
+                src="/AWS SVG ICONS/Amazon_Web_Services-Logo.wine.svg"
                 alt="AWS Logo"
                 className="w-20 h-full object-cover"
               />

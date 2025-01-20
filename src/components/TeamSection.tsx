@@ -338,7 +338,7 @@ export default function TeamSection() {
                       transition={{ duration: 0.3 }}
                     >
                       <img 
-                        src="../../public/vitcc.png" 
+                        src="/vitcc.png" 
                         alt="VIT Logo" 
                         className="absolute top-5 right-4 h-24 w-44 object-contain"
                       />

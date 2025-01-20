@@ -105,7 +105,7 @@ export default function Navbar() {
           >
             <div className="relative w-10 h-10">
               <img
-                src="../../public/AWS SVG ICONS/Amazon_Web_Services-Logo.wine.svg"
+                src="/AWS SVG ICONS/Amazon_Web_Services-Logo.wine.svg"
                 alt="AWS Logo"
                 className="w-full h-full object-cover"
               />

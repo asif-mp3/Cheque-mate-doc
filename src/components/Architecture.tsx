@@ -211,7 +211,7 @@ export default function EnhancedArchitecture() {
                 }}
               >
                 <img
-                  src="../../public/aws_arch.jpg"
+                  src="/aws_arch.jpg"
                   alt="AWS Architecture Diagram"
                   className="w-full h-auto rounded-lg shadow-lg"
                 />
@@ -237,7 +237,7 @@ export default function EnhancedArchitecture() {
                   <X size={24} />
                 </button>
                 <img
-                  src="../../public/aws_arch.jpg"
+                  src="/aws_arch.jpg"
                   alt="AWS Architecture Diagram"
                   className="w-full h-auto rounded-xl shadow-2xl"
                 />
