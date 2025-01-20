@@ -1,55 +1,43 @@
-<<<<<<< HEAD
-# React + TypeScript + Vite
+# 🏦 Cheque-Mate: AWS-Powered Automated Cheque Processing System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
 
-Currently, two official plugins are available:
+![Cheque-Mate Logo](public/logo.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/)
+[![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](LICENSE)
 
-## Expanding the ESLint configuration
+</div>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 📝 Overview
 
-- Configure the top-level `parserOptions` property like this:
+Cheque-Mate is a modern, cloud-native solution for automated cheque processing, leveraging the power of AWS services. Our system streamlines the traditional cheque processing workflow by automating data extraction, verification, and storage, significantly reducing manual effort and potential errors.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### 🌟 Key Features
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- **Automated Data Extraction**: Extract cheque details using advanced OCR technology
+- **Real-time Processing**: Process cheques instantly with serverless architecture
+- **Secure Storage**: Encrypted storage of cheque images and data
+- **User Authentication**: Secure access control with multi-factor authentication
+- **Audit Trail**: Comprehensive logging and monitoring of all transactions
+- **Dashboard Analytics**: Visual insights into processing metrics
+- **Multi-format Support**: Handle various cheque formats and layouts
+- **Error Detection**: Automated validation and error checking
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 🏗️ Architecture
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
-=======
-# Cheque-mate-doc
-Documentation Website. Due to AWS account closure and hosting limitations, I've  created this comprehensive overview to share the project details.
->>>>>>> b1423db46ae544cf47bbd74f8bf20455902be1f6
+Our system follows a modern, serverless architecture leveraging various AWS services:
+
+```mermaid title="Cheque-Mate Architecture" type="diagram"
+graph TD
+    A[Web Application] -->|Upload| B[AWS Amplify]
+    B -->|Store| C[Amazon S3]
+    C -->|Trigger| D[AWS Lambda]
+    D -->|Process| E[Amazon Textract]
+    E -->|Store| F[Amazon RDS]
+    D -->|Notify| G[Amazon SNS]
+    H[API Gateway] -->|Route| D
+    I[CloudWatch] -->|Monitor| D
+    J[Cognito] -->|Authenticate| A
